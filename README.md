@@ -1,10 +1,10 @@
 # IMU Data Prep
 
-Benchmark dataset preparation pipeline for inertial orientation estimation. Processes three heterogeneous IMU source datasets into a unified, trial-based format: 272 self-contained movement trials with gyroscope sensor data, reference quaternion ground truth, and boundary conditions.
+Benchmark dataset preparation pipeline for inertial orientation estimation. Processes three heterogeneous IMU source datasets into a unified, trial-based format: 272 self-contained movement trials with gyroscope sensor data, reference quaternions, and boundary conditions.
 
 ## Overview
 
-This project takes raw IMU recordings from three independent research datasets — each with different sensors, sampling rates, file formats, and labeling conventions — and produces a single standardized benchmark. Each trial is a time-windowed movement segment with static padding, paired with optical motion capture reference quaternions for evaluation.
+This project takes raw IMU recordings from three independent research datasets — each with different sensors, sampling rates, file formats, and labeling conventions — and produces a single standardized benchmark. Each trial is a time-windowed movement segment with static padding, paired with reference quaternions for evaluation.
 
 The prepared dataset is designed for testing quaternionic differential equation solvers in a separate project. This repo handles only data preparation and verification.
 
