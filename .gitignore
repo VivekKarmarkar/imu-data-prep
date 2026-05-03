@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+*.log
+tmp/
+
+# Large output directories (regenerable from source data)
+movella_output/
+sassari_output/
+seel_output/
+cumulative_output/
+
+# Telegram logs
+Telegram_calls.md
